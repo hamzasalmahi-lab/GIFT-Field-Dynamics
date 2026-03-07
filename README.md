@@ -25,4 +25,4 @@ A 3D simulation showing how the "predictive grip" on reality is physically insta
 ##  Usage
 These scripts require Python 3.x and the standard scientific stack:
 ```bash
-pip install numpy matplotlib scipy
+pip install numpy matplotlib scipy networkx
