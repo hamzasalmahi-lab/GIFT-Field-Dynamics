@@ -10,28 +10,49 @@ GIFT proposes that phenomenal presence is a function of the curvature ($k$) of a
 * **Belief Manifold:** The multidimensional state space of the agent's generative model.
 * **The Phenomenal Snap:** A phase transition where the manifold flattens as $\Phi$ drops below a critical threshold ($\Phi_c$), resulting in the "unreal" quality of dissociation.
 
-##  Included Simulations
+## Included Simulations
 
 ### 1. Theoretical Topology (The Geometry of Presence)
-Focus: Formalizing the $G_{\mu\nu} = \kappa T_{\mu\nu}$ relationship.
-Manifold_Deformation_3D.py: A high-fidelity visualization of the belief manifold's "predictive grip" as a function of precision-      weighting.
-The Curvature of Presence.py: Explores the interaction between Hierarchical depth (H) and Self-representation (S) variables.
-Eigenvalue_structure_along_the_fixed-point_curve.py: Establishes the mathematical stability and monostability of the GIFT global      attractor.
+
+**Focus:** Formalizing the relationship between the field equation  
+`G_{μν} = κT_{μν}`
+
+- **Manifold_Deformation_3D.py**  
+  High-fidelity visualization of the belief manifold's *predictive grip* as a function of precision-weighting.
+
+- **The_Curvature_of_Presence.py**  
+  Explores the interaction between **Hierarchical Depth (H)** and **Self-Representation (S)** variables.
+
+- **Eigenvalue_Structure_Along_the_Fixed_Point_Curve.py**  
+  Establishes the mathematical stability and **monostability** of the **GIFT global attractor**.
 
 
 ### 2. Nonlinear Dynamics & Phase Transitions
-Focus: Modeling the "Phenomenal Snap" and Pathological Persistence.
-Field_Equation_Phase_Transition.py: The primary engine for simulating the transition from Waking Presence to Dissociative  Flattening.
-The Hysteresis Loop.py: Models the "recovery lag" in clinical states, demonstrating why the onset of dissociation is non-symmetrical with recovery.
-Fixed Stability Map (Phase Portrait).py: Vector field analysis of the system's attractor states across the $\Phi$ gradient.
-    
+
+**Focus:** Modeling the *Phenomenal Snap* and pathological persistence.
+
+- **Field_Equation_Phase_Transition.py**  
+  Core simulation engine modeling the transition from **Waking Presence** to **Dissociative Flattening**.
+
+- **Hysteresis_Loop.py**  
+  Simulates the **recovery lag** observed in clinical states, demonstrating why the onset of dissociation is not symmetrical with recovery.
+
+- **Fixed_Stability_Map_Phase_Portrait.py**  
+  Vector-field analysis of the system’s attractor states across the `Φ` gradient.
+
 
 ### 3. Clinical Translation & Biomarker Prediction
-Focus: Moving from theory to the hospital bedside.
-Critical Slowing Down (Biomarker Prediction).py: Implementation of dynamical systems indicators to predict impending "Conscious Collapse."
-HEP amplitude prediction.py: Models the correlation between manifold depth and Heart-Evoked Potentials (HEP).
-The Recovery Time Predictor.py: A prognostic script for estimating clinical recovery windows based on interoceptive gain recovery.
 
+**Focus:** Bridging theory with clinical application.
+
+- **Critical_Slowing_Down_Biomarker_Prediction.py**  
+  Implements dynamical systems indicators to predict impending **conscious collapse**.
+
+- **HEP_Amplitude_Prediction.py**  
+  Models the relationship between **manifold depth** and **Heart-Evoked Potentials (HEP)**.
+
+- **Recovery_Time_Predictor.py**  
+  Prognostic simulation estimating **clinical recovery windows** based on interoceptive gain restoration.
 ##  Technical Implementation
 Mathematical Basis
 The simulations are grounded in:
