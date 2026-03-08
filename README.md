@@ -13,7 +13,7 @@ The simulations in this repository explore how **interoceptive precision**, **hi
 GIFT proposes that **phenomenal presence** arises from the **curvature of an inferential field** embedded in the agent’s generative model.
 
 \[
-k = f(\Phi)
+k = f(Φ)
 \]
 
 Where:
@@ -37,7 +37,7 @@ A **multidimensional statistical manifold** representing the agent's generative 
 A **nonlinear phase transition** that occurs when:
 
 \[
-\Phi < \Phi_c
+Φ < Φc
 \]
 
 Below this **critical threshold**, the belief manifold **loses curvature**, producing the phenomenological signature of **dissociation** — a flattening of subjective presence often described as *unreal*, *distant*, or *detached*.
@@ -51,7 +51,7 @@ Below this **critical threshold**, the belief manifold **loses curvature**, prod
 **Focus:** Formalizing the inferential field equation
 
 \[
-G_{\mu\nu} = \kappa T_{\mu\nu}
+Gμν = κTμν
 \]
 
 This section explores how **belief geometry emerges from precision-weighted inference**.
