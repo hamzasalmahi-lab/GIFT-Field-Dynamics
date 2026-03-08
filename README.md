@@ -1,75 +1,144 @@
-# GIFT-Field-Dynamics
+# GIFT Field Dynamics
 
-This repository contains the formal mathematical simulations for **Generative Inferential Frame Theory (GIFT)**. While HRIT describes the neurobiological architecture of consciousness, GIFT provides the underlying physicalist engine—modeling consciousness as the **topology of the belief manifold**.
+This repository contains the formal mathematical simulations for **Generative Inferential Frame Theory (GIFT)**.
 
-##  Theoretical Core
-GIFT proposes that phenomenal presence is a function of the curvature ($k$) of an inferential field, driven by interoceptive-affective precision ($\Phi$). 
+While **HRIT** describes the **neurobiological architecture of consciousness**, **GIFT** provides the underlying **physicalist dynamical framework**, modeling consciousness as the **topological structure of a belief manifold** governed by inferential field dynamics.
 
-### Key Constructs:
-* **Interoceptive Drive ($\Phi$):** The gain/precision of the homeostatic generative model.
-* **Belief Manifold:** The multidimensional state space of the agent's generative model.
-* **The Phenomenal Snap:** A phase transition where the manifold flattens as $\Phi$ drops below a critical threshold ($\Phi_c$), resulting in the "unreal" quality of dissociation.
+The simulations in this repository explore how **interoceptive precision**, **hierarchical inference**, and **nonlinear field dynamics** shape the emergence and stability of **phenomenal presence**.
 
-## Included Simulations
+---
 
-### 1. Theoretical Topology (The Geometry of Presence)
+# Theoretical Core
 
-**Focus:** Formalizing the relationship between the field equation  
-`G_{μν} = κT_{μν}`
+GIFT proposes that **phenomenal presence** arises from the **curvature of an inferential field** embedded in the agent’s generative model.
 
-- **Manifold_Deformation_3D.py**  
-  High-fidelity visualization of the belief manifold's *predictive grip* as a function of precision-weighting.
+\[
+k = f(\Phi)
+\]
 
-- **The_Curvature_of_Presence.py**  
-  Explores the interaction between **Hierarchical Depth (H)** and **Self-Representation (S)** variables.
+Where:
 
-- **Eigenvalue_Structure_Along_the_Fixed_Point_Curve.py**  
-  Establishes the mathematical stability and **monostability** of the **GIFT global attractor**.
+- **k** — curvature of the inferential field (phenomenological structure)
+- **Φ** — interoceptive-affective precision (homeostatic gain)
 
+The theory treats conscious presence as a **geometric property of belief-space**, where curvature reflects the **predictive grip of the generative model on sensory input**.
 
-### 2. Nonlinear Dynamics & Phase Transitions
+---
 
-**Focus:** Modeling the *Phenomenal Snap* and pathological persistence.
+# Key Constructs
 
-- **Field_Equation_Phase_Transition.py**  
-  Core simulation engine modeling the transition from **Waking Presence** to **Dissociative Flattening**.
+### Interoceptive Drive (Φ)
+The **precision-weighting of the homeostatic generative model**, regulating how strongly internal bodily signals constrain inference.
 
-- **Hysteresis_Loop.py**  
-  Simulates the **recovery lag** observed in clinical states, demonstrating why the onset of dissociation is not symmetrical with recovery.
+### Belief Manifold
+A **multidimensional statistical manifold** representing the agent's generative model across hierarchical predictive layers.
 
-- **Fixed_Stability_Map_Phase_Portrait.py**  
-  Vector-field analysis of the system’s attractor states across the `Φ` gradient.
+### The Phenomenal Snap
+A **nonlinear phase transition** that occurs when:
 
+\[
+\Phi < \Phi_c
+\]
 
-### 3. Clinical Translation & Biomarker Prediction
+Below this **critical threshold**, the belief manifold **loses curvature**, producing the phenomenological signature of **dissociation** — a flattening of subjective presence often described as *unreal*, *distant*, or *detached*.
 
-**Focus:** Bridging theory with clinical application.
+---
 
-- **Critical_Slowing_Down_Biomarker_Prediction.py**  
-  Implements dynamical systems indicators to predict impending **conscious collapse**.
+# Included Simulations
 
-- **HEP_Amplitude_Prediction.py**  
-  Models the relationship between **manifold depth** and **Heart-Evoked Potentials (HEP)**.
+## 1. Theoretical Topology — *The Geometry of Presence*
 
-- **Recovery_Time_Predictor.py**  
-  Prognostic simulation estimating **clinical recovery windows** based on interoceptive gain restoration.
-##  Technical Implementation
-Mathematical Basis
-The simulations are grounded in:
+**Focus:** Formalizing the inferential field equation
 
-Active Inference (Variational Free Energy Minimization)
+\[
+G_{\mu\nu} = \kappa T_{\mu\nu}
+\]
 
-Riemannian Geometry of statistical manifolds
+This section explores how **belief geometry emerges from precision-weighted inference**.
 
-Non-linear Dynamical Systems (ODE solvers)
+### Manifold_Deformation_3D.py
+High-fidelity visualization of **belief manifold deformation** as a function of precision-weighting.
 
-##  Usage
-These scripts require Python 3.x and the standard scientific stack:
+### The_Curvature_of_Presence.py
+Explores the interaction between:
+
+- **Hierarchical Depth (H)**
+- **Self-Representation (S)**
+
+and their joint effects on manifold curvature.
+
+### Eigenvalue_Structure_Along_the_Fixed_Point_Curve.py
+Analyzes the **stability properties of the GIFT global attractor**, demonstrating its **monostable structure** across the parameter space.
+
+---
+
+## 2. Nonlinear Dynamics & Phase Transitions
+
+**Focus:** Modeling the **Phenomenal Snap** and pathological persistence in dissociative states.
+
+### Field_Equation_Phase_Transition.py
+Primary simulation engine modeling the transition between:
+
+- **Waking Presence**
+- **Dissociative Flattening**
+
+via nonlinear field dynamics.
+
+### Hysteresis_Loop.py
+Models **recovery lag** observed in clinical dissociation, showing why **collapse and recovery follow asymmetric trajectories**.
+
+### Fixed_Stability_Map_Phase_Portrait.py
+Vector-field analysis of the system's **attractor landscape** across the precision gradient **Φ**.
+
+---
+
+## 3. Clinical Translation & Biomarker Prediction
+
+**Focus:** Translating theoretical dynamics into **clinically observable biomarkers**.
+
+### Critical_Slowing_Down_Biomarker_Prediction.py
+Implements **dynamical early-warning signals** predicting impending **conscious collapse**.
+
+### HEP_Amplitude_Prediction.py
+Models the relationship between **belief manifold depth** and **Heart-Evoked Potential (HEP)** amplitude.
+
+### Recovery_Time_Predictor.py
+Prognostic model estimating **recovery time from dissociative states** based on **interoceptive precision restoration**.
+
+---
+
+# Technical Implementation
+
+The simulations are grounded in three mathematical frameworks:
+
+### Active Inference
+Variational Free Energy minimization within hierarchical generative models.
+
+### Riemannian Geometry
+Statistical manifolds describing belief-space curvature and field structure.
+
+### Nonlinear Dynamical Systems
+Phase transitions, attractor dynamics, and bifurcation analysis using numerical ODE solvers.
+
+---
+
+# Installation
+
+The simulations require **Python 3.x** and the standard scientific computing stack.
+
 ```bash
 pip install numpy matplotlib scipy networkx
+```
 
-##  Academic Correspondence
-Hamza S. Almahi, MBBS Strategy & Research | Theoretical Neuroscience 
-Email: hamza.s.almahi@gmail.com
+---
 
-LinkedIn: (https://www.linkedin.com/in/hamza-almahi-2a09a3127/)
+# Academic Correspondence
+
+**Hamza S. Almahi, MBBS**  
+Strategy & Research — Theoretical Neuroscience
+
+📧 Email  
+hamza.s.almahi@gmail.com
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/hamza-almahi-2a09a3127/
